@@ -129,7 +129,7 @@ body {
 	align-items: center;
 }
 
-#home-logo {
+.home-logo {
 	max-width: 20%;
 	margin: 3rem auto;
 }
