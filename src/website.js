@@ -1,5 +1,6 @@
 import loadHome from "./home";
-import loadContact from "./ contact";
+import loadMenu from "./menu";
+import loadContact from "./contact";
 
 function createHeader() {
 	const header = document.getElementById("header");

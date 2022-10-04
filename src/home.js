@@ -28,7 +28,7 @@ function createHome() {
 function loadHome() {
 	const main = document.getElementById("main");
 	main.textContent = "";
-	main.append(createHome());
+	main.appendChild(createHome());
 }
 
 export default loadHome;
