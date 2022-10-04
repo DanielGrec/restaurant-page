@@ -7,6 +7,7 @@ function createHeader() {
 
 	const headerLogo = document.createElement("h1");
 	headerLogo.classList.add("header-logo");
+	headerLogo.textContent = "Burger Factory";
 
 	const navButtons = document.createElement("div");
 	navButtons.classList.add("nav-buttons");
@@ -38,8 +39,12 @@ function createHeader() {
 		loadContact();
 	});
 
-	navButtons.append(homeButton, menuButton, contactButton);
-	header.append(headerLogo, navButtons);
+	navButtons.appendChild(homeButton);
+	navButtons.appendChild(menuButton);
+	navButtons.appendChild(contactButton);
+
+	header.appendChild(headerLogo);
+	header.appendChild(navButtons);
 	return header;
 }
 

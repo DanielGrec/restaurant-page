@@ -6,6 +6,7 @@ function createHome() {
 	homeHeading.classList.add("home-heading");
 	homeHeading.textContent = "Welcome";
 	const homeLogo = document.createElement("img");
+	homeLogo.classList.add("home-logo");
 	homeLogo.src = "./images/burger.png";
 	homeLogo.alt = "Burger Logo";
 
@@ -21,7 +22,11 @@ function createHome() {
 	homeContact.textContent =
 		"Head over to our contact page to place your order!";
 
-	home.append(homeHeading, homeLogo, homeTitle, homePara, homeContact);
+	home.appendChild(homeHeading);
+	home.appendChild(homeLogo);
+	home.appendChild(homeTitle);
+	home.appendChild(homePara);
+	home.appendChild(homeContact);
 	return home;
 }
 
