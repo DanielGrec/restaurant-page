@@ -21,7 +21,12 @@ function createHome() {
 	homeContact.textContent =
 		"Head over to our contact page to place your order!";
 
-	home.append(homeHeading, homeLogo, homeTitle, homePara, homeContact);
+	// home.append(homeHeading, homeLogo, homeTitle, homePara, homeContact);
+	home.appendChild(homeHeading);
+	home.appendChild(homeLogo);
+	home.appendChild(homeTitle);
+	home.appendChild(homePara);
+	home.appendChild(homeContact);
 	return home;
 }
 
