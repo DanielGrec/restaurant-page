@@ -130,7 +130,7 @@ body {
 }
 
 .home-logo {
-	max-width: 20%;
+	max-width: 15%;
 	margin: 3rem auto;
 }
 
@@ -182,20 +182,21 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	height: 350px;
+	height: 300px;
+	width: 500px;
 	padding: 2rem;
 	cursor: pointer;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.8);
 	transition: background-color 0.3s;
 }
 
 .menu-item:hover {
 	background-color: rgba(245, 245, 245, 0.332);
+	color: black;
 }
 
 .menu-item img {
 	width: 30%;
-	border-radius: 1rem;
 }
 
 .menu-item h2 {
@@ -228,5 +229,5 @@ body {
 }
 
 .fa-github:hover {
-	color: var(--font-color-dark);
+	color: black;
 }
